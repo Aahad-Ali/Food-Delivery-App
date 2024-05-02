@@ -2,10 +2,12 @@ import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
 import Card from '../Card'
+import Carosuel from '../Carosuel'
 const Home = () => {
   return (
     <>
-      <div className='mb-5'><Header /></div>
+      <div><Header /></div>
+      <div><Carosuel/></div>
       <div>
     <Card/>
       </div>
